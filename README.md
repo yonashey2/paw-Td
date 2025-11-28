@@ -1,8 +1,11 @@
 # paw-Td
 Bouhala Chaimaa A2
+
 my works in the Td Paw class
+
 for attendance_system in php wamp server: 
 CREATE DATABASE attendance_system;
+
 CREATE TABLE students (
     id INT AUTO_INCREMENT PRIMARY KEY,
     fullname VARCHAR(100) NOT NULL,
@@ -18,6 +21,7 @@ CREATE TABLE attendance_sessions (
     session_date DATE NOT NULL,
     status ENUM('open','closed') DEFAULT 'open'
 );
+
 
 CREATE TABLE attendance_records (
     id INT AUTO_INCREMENT PRIMARY KEY,
